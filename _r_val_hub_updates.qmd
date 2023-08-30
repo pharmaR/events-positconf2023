@@ -1,0 +1,42 @@
+## 📣 Updates {transition="slide-in none"}
+
+### Change of Leadership
+
+- You may have noticed that I am not Andy Nicholls. 
+- Last year, Andy decided to step down to focus on his growing responsibilities
+  as Head of Data Science at GSK
+
+## 📣 Updates
+
+### Pulse Check
+
+- We looked back on how we had been working
+- Identified new opportunities
+  1. Refining holistic strategic direction
+  1. Be mindful about communication and organization
+
+## ![](assets/riskmetric.png){height="1.8em" width="1.8em" style="margin: 0 0.2em; object-fit: contain;vertical-align: middle;"} `{riskmetric}`
+
+
+
+## ![](assets/riskassessment.png){height="1.8em" width="1.8em" style="margin: 0 0.2em; object-fit: contain;vertical-align: middle;"} `{riskassessment}`
+
+
+
+## Repositories Workstream
+
+::: { style="font-size: 0.8em;" }
+> Supporting a transparent, open, dynamic, cross-industry approach of
+> establishing and maintaining a _repository_ of R packages.
+
+* Taking ample time to engage stakeholders
+  * Validation leads across the industry
+  * Active health authority involvement
+  * Analytic environment admins and developers
+* Considering the possibilities
+  * Mapping needs to solutions that meet the industry where it is
+  * ...while building the path for it to move forward
+:::
+
+
+

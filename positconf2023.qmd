@@ -7,123 +7,7 @@ date: 09/18/2023
 ---
 
 
-## 👋 Who We Are ([pharmaR.org](https://www.pharmaR.org)) {transition="none-in slide-out"}
-
-```{=html}
-<style>
-.panel {
-  font-size: 0.6em;
-  background: rgba(0.75, 0.75, 0.75, 0.2);
-  padding: 1%;
-  margin: 1%;
-  border-radius: 0.5em;
-  border-bottom: solid 0.2em rgba(1, 1, 1, 0.1);
-}
-
-.center {
-  --r-heading-margin: auto;
-  width: fit-content;
-}
-
-.person {
-  font-weight: bold;
-  font-size: 0.8em;
-  margin: 1em 0 0.5em 0;
-}
-
-.person p {
-  display: inline;
-}
-
-.person:before {
-  display: inline;
-  content: "👤 ";
-}
-
-.badge-pill {
-  font-weight: bold;
-  background: var(--r-link-color);
-  color: white;
-  border-radius: 1em;
-  padding: 0 0.5em;
-}
-</style>
-```
-
-::: { style="font-size: 0.7em;" }
-> The ***R Validation Hub*** is a collaboration to support the adoption of R
-> within a biopharmaceutical regulatory setting
-:::
-
-* Grew out of **R/Pharma 2018**
-* Led by participants from **~10 organizations**
-* With frequent involvement from health authorities (primarily the FDA)
-* And subscribers from **~60 organizations** spanning multiple industries
-
-
-## 👋 Who We Are ([pharmaR.org](https://www.pharmaR.org)) {transition="slide-in slide-out"}
-
-### Products {.center}
-
-::::: {.columns}
-:::: {.column width="29%" .panel}
-#### White Paper
-Guidance on compliant use of R and management of packages
-::::
-
-:::: {.column width="29%" .panel}
-#### [New!]{.badge-pill} Repositories
-
-Building a public, validation-ready resource for R packages  
-
-::: {.person}
-Coline Zeballos
-:::
-::::
-
-:::: {.column width="29%" .panel}
-#### [New!]{.badge-pill} Communications
-
-Connecting validation experts across the industry
-
-::: {.person}
-Juliane Manitz
-:::
-::::
-:::::
-
-::::: {.columns}
-:::: {.column width="29%" .panel}
-#### [`{riskmetric}`](https://github.com/pharmaR/riskmetric)
-
-Gather and report on risk heuristics to support validation decision-making
-
-::: {.person}
-Eric Milliman
-:::
-::::
-
-:::: {.column width="29%" .panel}
-#### [`{riskassessment}`](https://github.com/pharmaR/riskassessment)
-
-A web interface to `{riskmetric}`, supporting review,
-annotation and cataloging of decisions
-
-::: {.person}
-Aaron Clark
-:::
-::::
-
-:::: {.column width="29%" .panel}
-#### [New!]{.badge-pill} [`{riskscore}`](https://github.com/pharmaR/riskscore)
-
-An R data package capturing risk metrics across all of CRAN
-
-::: {.person}
-Aaron Clark
-:::
-::::
-:::::
+{{< include _r_val_hub_intro.qmd >}}
 
 
 ## 📊 A Quick Survey
@@ -132,11 +16,11 @@ Keep your hand raised if...
 
 :::: {.incremental}
 - [It's early morning and you need an excuse to stretch]{.fragment .semi-fade-out}
-- [You've heard of the ***R Validation Hub***]{.fragment .semi-fade-out}
+- [This is your first time hearing about the ***R Validation Hub***]{.fragment .semi-fade-out}
 - [You're missing Andy's posh accent]{.fragment .semi-fade-out}
-- [Your organization contributes to the ***R Validation Hub***]{.fragment .semi-fade-out}
-- [Your organization leverages the ***R Validation Hub*** guidelines]{.fragment .semi-fade-out}
-- [Your organization leverages the ***R Validation Hub*** tools (`{riskmetric}`, `{riskassessment}`)]{.fragment .semi-fade-out}
+- [Your org contributes to the ***R Validation Hub***]{.fragment .semi-fade-out}
+- [Your org leverages the ***R Validation Hub*** guidelines]{.fragment .semi-fade-out}
+- [Your org uses ***R Validation Hub*** tools (`{riskmetric}`, `{riskassessment}`)]{.fragment .semi-fade-out}
 ::::
 
 
@@ -158,27 +42,12 @@ Keep your hand raised if...
 ```
 
 - Updates [10min]{.dim}
-- Established Workstream Recap [20min]{.dim}
+- Established Workstream Recap [20min]{.dim}  
+  _past_, _present_ & _future_
+- Leaps of Faith: Setting the Tone for our Future [20min]{.dim}  
 - Open Discussion
   - What's Next? [20min]{.dim}
-  - Leaps of Faith [20min]{.dim}  
   - Design Lab [10min]{.dim}
 - Closing
 
-
-## 📣 Updates {transition="slide-out"}
-
-### Change of Leadership
-
-- You may have noticed that I am not Andy Nicholls. 
-- Last year, Andy decided to step down to focus on his growing responsibilities
-  as Head of Data Science at GSK
-
-## 📣 Updates {transition="slide-in slide-out"}
-
-### Pulse Check
-
-- We looked back on how we had been working
-- Identified new opportunities
-  1. Refining holistic strategic direction
-  1. Be mindful about communication and organization
+{{< include _r_val_hub_updates.qmd >}}
