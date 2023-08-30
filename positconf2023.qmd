@@ -41,8 +41,8 @@ Keep your hand raised if...
 </style>
 ```
 
-- Updates [10min]{.dim}
-- Established Workstream Recap [20min]{.dim}  
+- Updates [20min]{.dim}
+- Established Workstream Recap [10min]{.dim}  
   _past_, _present_ & _future_
 - Leaps of Faith: Setting the Tone for our Future [20min]{.dim}  
 - Open Discussion

@@ -1,19 +1,24 @@
-## 📣 Updates {transition="slide-in none"}
+# 📣 Updates {transition="slide-in none"}
 
-### Change of Leadership
+## Change of Leadership
 
 - You may have noticed that I am not Andy Nicholls. 
 - Last year, Andy decided to step down to focus on his growing responsibilities
   as Head of Data Science at GSK
 
-## 📣 Updates
-
-### Pulse Check
+## Pulse Check
 
 - We looked back on how we had been working
 - Identified new opportunities
   1. Refining holistic strategic direction
   1. Be mindful about communication and organization
+
+
+# 📜 Workstream Report
+
+## R Validation Hub Case Studies
+
+
 
 ## ![](assets/riskmetric.png){height="1.8em" width="1.8em" style="margin: 0 0.2em; object-fit: contain;vertical-align: middle;"} `{riskmetric}`
 
@@ -38,5 +43,66 @@
   * ...while building the path for it to move forward
 :::
 
+## Repositories Workstream
+### How did we get here?
+
+::: {.incremental style="font-size: 0.8em;"}
+* [Our whitepaper is widely adopted]{.fragment .semi-fade-out}
+* [But implementing it is inconsistent & laborious]{.fragment .semi-fade-out}   
+  * [Variations throughout industry are a risk]{.fragment .semi-fade-out}
+  * [Sharing software with health authorities is a challenge to any internal solution]{.fragment .semi-fade-out}
+  * [Health authorities, overwhelmed by technical inconsistencies, are more likely to question software use]{.fragment .semi-fade-out}
+* We feel the most productive path forward is a shared ecosystem
+:::
+
+::: {.notes}
+- **inconsistent**: Vendored choices inevitably face inconsistency when
+  merged with internally developed tools
+- **laborious**: We're all reviewing the same tools, duplicating effort and
+:::
+
+
+## Repositories Workstream
+### What does a solution look like?
+
+::: {.callout-tip}
+## If it's not broke, don't fix it!
+:::
+
+::: {.incremental style="font-size: 0.8em;"}
+* R has this wonderful thing called CRAN, setting the standard of quality
+  - Packages are constantly tested together
+  - R has a culture of amazing documentation
+  - Statisticians flock to R, and are constantly vetting its implementations
+:::
+
+
+## Repositories Workstream
+### What does a solution look like?
+
+::: {.callout-tip}
+## If it's not broke, don't fix it!
+:::
+
+::: {.incremental style="font-size: 0.8em;"}
+* R has this thorn in its side called CRAN, 
+  - Builds are difficult to reproduce (key for validation)
+  - Quality indicators are lacking
+  - Difficult to roll back to an older snapshot (although tools exist to help with this.)
+  - Governance is prone to bouts of hostility
+:::
+
+## Repositories Workstream
+### What does a solution look like?
+
+We can model the successes of CRAN, while improving on its weaknesses
+
+
+## Repositories Workstream
+### Work to-date
+
+1. Stakeholder engagement [3mo]{.dim}
+2. Product refinement and proof-of-concept planning [1mo]{.dim}
+3. POC development [2mo]{.dim}
 
 
