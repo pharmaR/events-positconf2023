@@ -1,4 +1,4 @@
-## 👋 Who We Are ([pharmaR.org](https://www.pharmaR.org)) {transition="none-in slide-out"}
+# 👋 Who We Are {transition="none-in slide-out"}
 
 ```{=html}
 <style>
@@ -43,7 +43,7 @@
 
 ::: { style="font-size: 0.7em;" }
 > The ***R Validation Hub*** is a collaboration to support the adoption of R
-> within a biopharmaceutical regulatory setting
+> within a biopharmaceutical regulatory setting ([pharmaR.org](https://www.pharmaR.org))
 :::
 
 * Grew out of **R/Pharma 2018**
@@ -53,10 +53,36 @@
 
 ## 🤝 Affiliates: ![](assets/camis.png){height="1.2em" width="1.2em" style="margin: 0 0.2em; border-radius: 50%; object-fit: cover; background: #CBC; vertical-align: middle;"} PSI/AIMS (CAMIS) {transition="slide-in slide-out"}
 
+::::: {.columns}
+:::: {.column width="65%"}
+::: { style="font-size: 0.6em;" }
 > **C**omparing **A**nalysis **M**ethod **I**mplementations in **S**oftware  
 > A cross-industry group formed of members from PHUSE, PSI, and ASA.
+:::
 
-::: {style="font-size: 0.7em"}  
+::: { style="font-size: 0.7em;" }
+- Released a [white paper](https://phuse.s3.eu-central-1.amazonaws.com/Deliverables/Data+Visualisation+%26+Open+Source+Technology/WP077.pdf) providing guidance on appropriate use of stats methods, for example:
+  * Don't default to the defaults
+  * Be specific when drafting analysis plans, including precise methods & options
+- A resource for knowing the details of methods across languages
+:::
+::::
+
+:::: {.column width="35%"}
+![](assets/CAMIS-white-paper.png)
+::::
+:::::
+
+
+## 🤝 Affiliates: ![](assets/camis.png){height="1.2em" width="1.2em" style="margin: 0 0.2em; border-radius: 50%; object-fit: cover; background: #CBC; vertical-align: middle;"} PSI/AIMS (CAMIS) {transition="slide-in slide-out"}
+
+::: {style="font-size: 0.85em"}  
+- Currently building a repository of methods comparisons at 
+  [psiaims.github.io/CAMIS](https://psiaims.github.io/CAMIS/).
+- Check out their 
+  [contributors page](https://psiaims.github.io/CAMIS/contribution.html) to 
+  learn how you can get involved!
+
 | Methods            |                    | R   | SAS | Comparison |
 | ------------------ | ------------------ | --- | --- | -----------|
 | Summary Statistics | Rounding           | [`R`](https://psiaims.github.io/CAMIS/R/rounding.html) | [`SAS`](https://psiaims.github.io/CAMIS/SAS/rounding.html) | [`R` vs `SAS`](https://psiaims.github.io/CAMIS/Comp/r-sas_rounding.html) |
@@ -64,10 +90,11 @@
 | ... | ... | ... | ... | ... |
 
 : [CAMIS Comparisons Resources](https://psiaims.github.io/CAMIS/)
+
 :::
 
 
-## 🤝 Affiliates: ![](assets/r-consortium.png){height="1.2em" style="padding: 0.2em; margin: 0 0.5em 0 0; border-radius: 0.8em; background: #FFF; vertical-align: middle;"} {transition="slide-in slide-out"}
+## 🤝 Affiliates: ![](assets/r-consortium.png){height="1.2em" style="padding: 0.2em; margin: 0 0.5em 0 0; border-radius: 0.8em; background: #FFF; vertical-align: middle;"} [R Consortium]{.hidden} {transition="slide-in slide-out"}
 
 ::: {style="font-size: 0.7em"}
 > Works with and provides support to the R Foundation and to the key

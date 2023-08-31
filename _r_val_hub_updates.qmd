@@ -26,7 +26,7 @@
 
 ## ![](assets/riskassessment.png){height="1.8em" width="1.8em" style="margin: 0 0.2em; object-fit: contain;vertical-align: middle;"} `{riskassessment}`
 
-
+# 📦 Repositories Workstream
 
 ## Repositories Workstream
 
@@ -43,8 +43,8 @@
   * ...while building the path for it to move forward
 :::
 
-## Repositories Workstream
-### How did we get here?
+
+## How did we get here?
 
 ::: {.incremental style="font-size: 0.8em;"}
 * [Our whitepaper is widely adopted]{.fragment .semi-fade-out}
@@ -62,40 +62,85 @@
 :::
 
 
-## Repositories Workstream
-### What does a solution look like?
+## Old dog, new trick
 
-::: {.callout-tip}
+::: {.inremental}
+* Modern package ecosystems are the stats world's _new trick_
+* Methods are provided directly by statisticians and academics, rarely by vendors.
+* Risk is managed not by itemized requirements, but by good development practices.[^1]
+* We need to learn how to manage risk in a constantly evolving ecosystem
+:::
+
+[^1]: [_Computer Software Assurance for Production and Quality Systems Software: Draft Guidance for Industry and Food and Drug Administration Staff_](https://www.fda.gov/media/161521/download)
+
+::: {.notes}
+- **evolving**: 
+  - Patches constantly fixing edge cases. Neglect to update is a risk.
+  - Health authorities use latest CRAN. Differences
+    in their system and yours introduces risk of inconsistency in results.
+:::
+
+
+## Different strokes
+
+:::: {.columns}
+::: {.column width="50%"}
+##### Vendored Stats Products
+:::
+::: {.column width="50%"}
+##### Data Science Ecosystem
+:::
+::::
+
+
+:::: {.columns .fragment}
+::: {.column width="50%"}
+* a
+:::
+::: {.column width="50%"}
+* b
+:::
+::::
+
+
+## What does a solution look like?
+
+::: {.callout-note}
 ## If it's not broke, don't fix it!
 :::
 
 ::: {.incremental style="font-size: 0.8em;"}
-* R has this wonderful thing called CRAN, setting the standard of quality
+- R has this wonderful thing called CRAN, setting the standard of quality
   - Packages are constantly tested together
   - R has a culture of amazing documentation
   - Statisticians flock to R, and are constantly vetting its implementations
 :::
 
 
-## Repositories Workstream
-### What does a solution look like?
+## What does a solution look like?
 
-::: {.callout-tip}
-## If it's not broke, don't fix it!
+::: {.callout-warning}
+## Fool me twice, shame on me
 :::
 
 ::: {.incremental style="font-size: 0.8em;"}
-* R has this thorn in its side called CRAN, 
+- R has this thorn in its side called CRAN, 
   - Builds are difficult to reproduce (key for validation)
   - Quality indicators are lacking
   - Difficult to roll back to an older snapshot (although tools exist to help with this.)
-  - Governance is prone to bouts of hostility
+  - Governance isn't always the most friendly
 :::
 
-## Repositories Workstream
-### What does a solution look like?
 
-We can model the successes of CRAN, while improving on its weaknesses
+## What does a solution look like?
+
+::: {.callout-tip}
+## Closing the CRAN gap for the Pharma Use Case
+:::
+
+- Reproducibility guidelines
+- Standard, public assessment of packages
+- Avenues for communicating about implementations, bugs, security
 
 
 ## Repositories Workstream

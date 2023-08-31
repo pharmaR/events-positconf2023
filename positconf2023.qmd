@@ -10,7 +10,7 @@ date: 09/18/2023
 {{< include _r_val_hub_intro.qmd >}}
 
 
-## 📊 A Quick Survey
+# 📊 A Quick Survey
 
 Keep your hand raised if...
 
@@ -24,7 +24,7 @@ Keep your hand raised if...
 ::::
 
 
-## 🗓️  Agenda
+# 🗓️  Agenda
 
 ```{=html}
 <style>
