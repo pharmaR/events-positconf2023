@@ -1,5 +1,44 @@
 # 📣 Updates {transition="slide-in none"}
 
+## 🗝 Key Policy Updates!
+
+> If nothing else, take this home!
+
+- The FDA appears to accept `.R` files through their eSUB portal[^1].
+- The FDA has released a draft of a new _Computer Software Assurance[^2]_ guideline
+  that seems to be increasingly the basis for their evaluation of R.
+
+[^1]: [R Consortium R Submission WG, Pilot #1](https://github.com/RConsortium/submissions-pilot1)
+[^2]: [_Computer Software Assurance for Production and Quality Systems Software: Draft Guidance for Industry and Food and Drug Administration Staff_](https://www.fda.gov/media/161521/download)
+
+## 🗝 Key Policy Updates!
+
+> If nothing else, take this home!
+
+::: {.callout-tip}
+## Identifying Intended Use [^2]
+
+Software is used **directly** for the production and quality systems' 
+automation inspection, testing, or the collection and processing of 
+production data. Software **supports** development, monitoring and 
+automated testing. _A manufacturer_ should use a **risk-based analysis
+to determine appropriate assurance activities.**
+:::
+
+## 🗝 Key Policy Updates!
+
+> If nothing else, take this home!
+
+::: {.callout-tip}
+## Determining the Appropriate Assurance Activities[^2]
+
+Assurance can include _Ad-hoc testing_, _Exploratory testing_ (active package use), 
+_Error-guessing_ (regression testing), 
+_Robust scripted testing_ and _Limited scripted testing_ (traceable, reproducible testing suites).
+
+"This approach may apply scripted testing for high-risk features"
+:::
+
 ## Change of Leadership
 
 - You may have noticed that I am not Andy Nicholls. 
@@ -12,7 +51,8 @@
 - Identified new opportunities
   1. Refining holistic strategic direction
   1. Be mindful about communication and organization
-
+- We have a new Communication workstream! (and awesome new slides!)
+- More ways to get involved
 
 # 📜 Workstream Report
 
@@ -49,8 +89,8 @@
 ::: {.incremental style="font-size: 0.8em;"}
 * [Our whitepaper is widely adopted]{.fragment .semi-fade-out}
 * [But implementing it is inconsistent & laborious]{.fragment .semi-fade-out}   
-  * [Variations throughout industry are a risk]{.fragment .semi-fade-out}
-  * [Sharing software with health authorities is a challenge to any internal solution]{.fragment .semi-fade-out}
+  * [Variations throughout industry pose uncertainty]{.fragment .semi-fade-out}
+  * [Sharing software with health authorities is a challenge]{.fragment .semi-fade-out}
   * [Health authorities, overwhelmed by technical inconsistencies, are more likely to question software use]{.fragment .semi-fade-out}
 * We feel the most productive path forward is a shared ecosystem
 :::
@@ -58,6 +98,7 @@
 ::: {.notes}
 - **inconsistent**: Vendored choices inevitably face inconsistency when
   merged with internally developed tools
+- **sharing**: `pkglite`, `.R` files now permitted, Hosting on git repo/r-universe? But comes with extra install steps.
 - **laborious**: We're all reviewing the same tools, duplicating effort and
 :::
 
@@ -67,11 +108,11 @@
 ::: {.inremental}
 * Modern package ecosystems are the stats world's _new trick_
 * Methods are provided directly by statisticians and academics, rarely by vendors.
-* Risk is managed not by itemized requirements, but by good development practices.[^1]
+* Risk is managed not by itemized requirements, but by good development practices.[^2]
 * We need to learn how to manage risk in a constantly evolving ecosystem
 :::
 
-[^1]: [_Computer Software Assurance for Production and Quality Systems Software: Draft Guidance for Industry and Food and Drug Administration Staff_](https://www.fda.gov/media/161521/download)
+[^2]: [_Computer Software Assurance for Production and Quality Systems Software: Draft Guidance for Industry and Food and Drug Administration Staff_](https://www.fda.gov/media/161521/download)
 
 ::: {.notes}
 - **evolving**: 
@@ -83,6 +124,7 @@
 
 ## Different strokes
 
+::::: {style="font-size: 0.7em;"}
 :::: {.columns}
 ::: {.column width="50%"}
 ##### Vendored Stats Products
@@ -95,12 +137,51 @@
 
 :::: {.columns .fragment}
 ::: {.column width="50%"}
-* a
+* Of-the-shelf [**cohort**]{style="color: green;"}.
 :::
 ::: {.column width="50%"}
-* b
+* A "snapshot" of [**living repository**]{style="color: green"}.
 :::
 ::::
+
+:::: {.columns .fragment}
+::: {.column width="50%"}
+* Internal tools developed [**against cohort**]{style="color: color-mix(in lch, green 80%, red)"} 
+  packages.
+:::
+::: {.column width="50%"}
+* Internal tools developed [**against latest**]{style="color: green;"} 
+  packages.
+:::
+::::
+
+:::: {.columns .fragment}
+::: {.column width="50%"}
+* New package versions [**risk incompatibility**]{style="color: color-mix(in lch, green 60%, red)"}.
+:::
+::: {.column width="50%"}
+* New packages can be [**reviewed and upgraded at-will**]{style="color: green;"}.
+:::
+::::
+
+:::: {.columns .fragment}
+::: {.column width="50%"}
+* Steep [**upgrade cost (time, developement)**]{style="color: color-mix(in lch, green 40%, red)"}.
+:::
+::: {.column width="50%"}
+* Living ecosystem, constantly [**vetted against new releases**]{style="color: green;"}
+:::
+::::
+
+:::: {.columns .fragment}
+::: {.column width="50%"}
+* [**System-specific mix of packages**]{style="color: color-mix(in lch, green 20%, red)"}.
+:::
+::: {.column width="50%"}
+* [**More likely what is used by HAs**]{style="color: green;"}
+:::
+::::
+:::::
 
 
 ## What does a solution look like?
@@ -142,6 +223,10 @@
 - Standard, public assessment of packages
 - Avenues for communicating about implementations, bugs, security
 
+
+## The Proposal so Far
+
+![](assets/repository-diagram.svg){.r-stretch}
 
 ## Repositories Workstream
 ### Work to-date
