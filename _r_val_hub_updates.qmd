@@ -103,9 +103,52 @@ _Robust scripted testing_ and _Limited scripted testing_ (traceable, reproducibl
 :::
 
 
-## Old dog, new trick
+## Work to-date
 
-::: {.inremental}
+**Building consensus in package evaluation and distribution...**
+
+0. Who needs a repository anyways?
+1. Stakeholder engagement [3mo]{.dim}  
+2. Product refinement and proof-of-concept planning [1mo]{.dim}
+3. POC development [2mo]{.dim}
+
+
+## ✋ Hold up! Why a repository?
+
+> "Every successful team starts with a small existential crisis"  
+>  -- _unknown_
+
+- Tools for building evaluation in-house?
+- Sharing of extra testing resources?
+- Curation of packages?
+- A stricter CRAN?
+
+
+## Interesting Stakeholder Findings
+
+- Health authority primary concerns
+  - Avoiding **security vulnerabilities** while using R
+  - Visible discussions **vetting methodology** and relevance
+- Industry validation leads
+  - Relieved that open-source tools are public, less need to audit
+    vendored tools
+- System administrators, users and developers
+  - Want **clarity** and **consistency** internally and externally
+
+
+## Prototyping
+
+Running three prototypes to explore specific needs
+
+- Test case exchange format ([repo](https://github.com/kkmann/rmes/pulls))
+- Planning methods discussion & considerations user paths ([google doc](https://docs.google.com/presentation/d/1b9VZjVM1pzzSmrO7WFKK43EjBZMT0smRrNY_0BPSR0s/edit#slide=id.g1e4f3a104ee_0_0))
+- Risk filters and transparency of known vulnerabilities ([repo](https://github.com/dgkf/rvalhub-repo-filters-mvp))
+
+
+## Embracing change
+### Old dog, new trick
+
+::: {.inremental style="font-size: 0.8em;"}
 * Modern package ecosystems are the stats world's _new trick_
 * Methods are provided directly by statisticians and academics, rarely by vendors.
 * Risk is managed not by itemized requirements, but by good development practices.[^2]
@@ -122,10 +165,19 @@ _Robust scripted testing_ and _Limited scripted testing_ (traceable, reproducibl
 :::
 
 
-## Different strokes
+## Comparing Approaches
+
+```{=html}
+<style>
+.dense-list ul, .dense-list li {
+  margin-top: 0.1em !important;      
+  margin-bottom: 0.1em !important;
+}
+</style>
+```
 
 ::::: {style="font-size: 0.7em;"}
-:::: {.columns}
+:::: {.columns .dense-list}
 ::: {.column width="50%"}
 ##### Vendored Stats Products
 :::
@@ -134,8 +186,7 @@ _Robust scripted testing_ and _Limited scripted testing_ (traceable, reproducibl
 :::
 ::::
 
-
-:::: {.columns .fragment}
+:::: {.columns .dense-list .fragment}
 ::: {.column width="50%"}
 * Of-the-shelf [**cohort**]{style="color: green;"}.
 :::
@@ -144,7 +195,7 @@ _Robust scripted testing_ and _Limited scripted testing_ (traceable, reproducibl
 :::
 ::::
 
-:::: {.columns .fragment}
+:::: {.columns .dense-list .fragment}
 ::: {.column width="50%"}
 * Internal tools developed [**against cohort**]{style="color: color-mix(in lch, green 80%, red)"} 
   packages.
@@ -155,7 +206,7 @@ _Robust scripted testing_ and _Limited scripted testing_ (traceable, reproducibl
 :::
 ::::
 
-:::: {.columns .fragment}
+:::: {.columns .dense-list .fragment}
 ::: {.column width="50%"}
 * New package versions [**risk incompatibility**]{style="color: color-mix(in lch, green 60%, red)"}.
 :::
@@ -164,7 +215,7 @@ _Robust scripted testing_ and _Limited scripted testing_ (traceable, reproducibl
 :::
 ::::
 
-:::: {.columns .fragment}
+:::: {.columns .dense-list .fragment}
 ::: {.column width="50%"}
 * Steep [**upgrade cost (time, developement)**]{style="color: color-mix(in lch, green 40%, red)"}.
 :::
@@ -173,7 +224,7 @@ _Robust scripted testing_ and _Limited scripted testing_ (traceable, reproducibl
 :::
 ::::
 
-:::: {.columns .fragment}
+:::: {.columns .dense-list .fragment}
 ::: {.column width="50%"}
 * [**System-specific mix of packages**]{style="color: color-mix(in lch, green 20%, red)"}.
 :::
@@ -181,7 +232,48 @@ _Robust scripted testing_ and _Limited scripted testing_ (traceable, reproducibl
 * [**More likely what is used by HAs**]{style="color: green;"}
 :::
 ::::
+
+:::: {.columns .dense-list .fragment}
+::: {.column width="50%"}
+* [**Tied to current validation expectations**]{style="color: color-mix(in lch, green 10%, red)"}.
+:::
+::: {.column width="50%"}
+* [**Adaptable as R best practices evolve**]{style="color: green;"}
+:::
+::::
+
+:::: {.center .dense-list .fragment style="margin: auto;"}
+[**Challenges shipping in-house code**]{style="color: color-mix(in lch, green 10%, red)"}.
+::::
 :::::
+
+
+## The latest fork in the road
+
+Given the key capabilities and tools to address them. How do we bundle
+these solution to address industry needs?
+
+:::: {.columns style="font-size: 0.7em;"}
+::: {.column .fragment width="50%"}
+**Support our industry today**
+
+> _Delivering in-house solutions for you to pick-and-choose_
+
+- Consistent processes to apply
+- Local tools to deploy in-house
+- Community forum for knowledge sharing
+:::
+
+::: {.column .fragment width="50%"}
+**Build what we want the industry to be**
+
+> _Drive change through transparency and consistency_
+
+- Lead by example with a public solution
+- Make it easier to adopt than re-build
+- Transparency-first solutions
+:::
+::::
 
 
 ## What does a solution look like?
@@ -226,13 +318,27 @@ _Robust scripted testing_ and _Limited scripted testing_ (traceable, reproducibl
 
 ## The Proposal so Far
 
-![](assets/repository-diagram.svg){.r-stretch}
+![](assets/repository-diagram.svg){.r-stretch .center style="display: block; margin: auto"}
 
-## Repositories Workstream
-### Work to-date
+## 🧗 "Leaps of Faith"
 
-1. Stakeholder engagement [3mo]{.dim}
-2. Product refinement and proof-of-concept planning [1mo]{.dim}
-3. POC development [2mo]{.dim}
+```{=html}
+<style>
+.highlight {
+  color: var(--r-heading-color);
+}
+</style>
+```
 
+- [***A "Golden" Base Image***]{.highlight}  
+  to establish ground truth for testing.
+- [***Packages are more like requirements than comprehensive software***]{.highlight}  
+  treating them as individual software as opposed to a collective 
+  ecosystem is not fruitful or necessary.
+- [***Nearly all meaningful assessment can be automated***]{.highlight}  
+  edge cases (malicious code, methods debate) are better handled by 
+  transparent community engagement.
 
+## The Proposal so Far
+
+![](assets/repository-diagram.svg){.r-stretch .center style="display: block; margin: auto"}
