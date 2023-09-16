@@ -4,7 +4,7 @@
 <style>
 .panel {
   font-size: 0.6em;
-  background: rgba(0.75, 0.75, 0.75, 0.2);
+  background: rgba(0.75, 0.75, 0.75, 0.1);
   padding: 1%;
   margin: 1%;
   border-radius: 0.5em;
@@ -105,7 +105,7 @@
 
 * The R Validation Hub
 * R Submission Working Group
-* R Repositories Working Group (ie CRAN enhancements & future)
+* R Repositories Working Group (ie CRAN enhancements, future development)
 
 ## 👷‍♂️ What We Do ([pharmaR.org](https://www.pharmaR.org)) {transition="slide-in slide-out"}
 

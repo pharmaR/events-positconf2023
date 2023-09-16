@@ -1,0 +1,20 @@
+## Workflow Dreams
+### Open Discussion
+
+:::: {.columns}
+::: {.column width="80%" style="font-size:0.6em"}
+Let's paint a "perfect" regulatory R organization. How would you like to see it work?
+
+- How is analysis shared? _Files_, _images_, _packages_?
+- How do you ensure quality, do new workflow opportunities open up?
+- What about integrated solutions (Shiny, cross-language solutions?)
+- How are internal tools layered on open-source tools? How are they
+  reproducibly shared with health authorities?
+- How does hiring/recruitment change when workflow is more public?
+:::
+
+::: {.column width="30%"}
+![](assets/bob-ross.png)
+:::
+::::
+

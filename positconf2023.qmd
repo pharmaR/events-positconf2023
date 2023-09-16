@@ -3,6 +3,7 @@ title: "R Validation Hub"
 subtitle: "Status Report & Workshop"
 author:
  - Doug Kelkhoff
+ - _on behalf of the R Validation Hub team_
 date: 09/18/2023
 ---
 
@@ -52,3 +53,22 @@ Keep your hand raised if...
 - Closing
 
 {{< include _r_val_hub_updates.qmd >}}
+
+{{< include _activity_1.qmd >}}
+
+{{< include _activity_2.qmd >}}
+
+# Closing
+
+Thank you for your engagement!
+
+:::: {.columns}
+::: {.column width="30%"}
+:::
+::: {.column width="60%"}
+_We're excited to champion new ways of working that bring Pharma's together._
+:::
+:::: 
+
+
+
