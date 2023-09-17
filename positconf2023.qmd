@@ -8,6 +8,11 @@ date: 09/18/2023
 ---
 
 
+# Slides Available!
+
+[pharmar.github.io/events-positconf2023](https://pharmar.github.io/events-positconf2023)
+
+
 {{< include _r_val_hub_intro.qmd >}}
 
 
