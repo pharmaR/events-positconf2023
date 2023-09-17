@@ -46,10 +46,8 @@ Keep your hand raised if...
 - Established Workstream Recap [10min]{.dim}  
   _past_, _present_ & _future_
 - Repositories Workstream Introduction [15min]{.dim}
-- **Table Discussions:** Setting the Tone for our Future [20min]{.dim}
-- 
-  - What's Next? [20min]{.dim}
-  - Design Lab [10min]{.dim}
+- **Table Discussions:** Leaps of Faith [20min]{.dim}
+- **Room Discussion:** Design Lab [20min]{.dim}
 - Closing
 
 {{< include _r_val_hub_updates.qmd >}}
